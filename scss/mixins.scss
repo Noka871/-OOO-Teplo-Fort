@@ -1,0 +1,13 @@
+@import 'color.scss';
+@import 'fonts.scss';
+
+@mixin but{
+	color:$elements;
+	border: 2px solid $elements;
+	font-family:$textMenu;
+	background:transparent;
+	&:hover{
+		background:$elements;
+		color:$Light;
+	}
+}
